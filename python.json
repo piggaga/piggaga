@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Python 入門指南",
+        "image": "images/none.jpg",
+        "content": "這是一篇關於 Python 入門的指南。",
+        "tags": ["Python", "入門"]
+    },
+    {
+        "title": "深入理解 Python 函數",
+        "image": "images/none.jpg",
+        "content": "本文將深入探討 Python 函數的各種用法和技巧。",
+        "tags": ["Python", "函數"]
+    },
+    {
+        "title": "Python 進階技巧",
+        "image": "images/none.jpg",
+        "content": "這篇文章將介紹 Python 中的一些進階技巧和技術。",
+        "tags": ["Python", "進階"]
+    }
+]
