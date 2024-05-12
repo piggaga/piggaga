@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 postContainer.classList.add("post-container");
 
                 postContainer.addEventListener("click", function () {
-                    window.location.href = `cpp_detail.html?index=${cpp_posts.indexOf(post)}`;
+                    window.location.href = `cpp_detail.html?index=${posts.indexOf(post)}`;
                 });
 
                 const postTitle = document.createElement("h3");
