@@ -4,5 +4,12 @@
         "image": "images/none.jpg",
         "content": "這是一篇關於 Html 的事例文章。",
         "tags": ["Html", "事例"]
+    },
+    {
+        "title": "Html 神奇導航列",
+        "image": "images/none.jpg",
+        "content": "這是一篇利用 Html和Css做的導航列 。
+        https://piggaga.github.io/Magic-menu/",
+        "tags": ["Html", "格式"]
     }
 ]
