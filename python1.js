@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     const timestamp = new Date().getTime(); // 獲取當前時間的時間戳
-    const url = `posts.json?timestamp=${timestamp}`; // 在 URL 中加入時間戳
+    const url = `python.json?timestamp=${timestamp}`; // 在 URL 中加入時間戳
 
     fetch(url)
         .then(response => response.json())
