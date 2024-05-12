@@ -8,8 +8,7 @@
     {
         "title": "Html 神奇導航列",
         "image": "images/none.jpg",
-        "content": "這是一篇利用 Html和Css做的導航列 。
-        https://piggaga.github.io/Magic-menu/",
+        "content": "這是一篇利用 Html 和 Css 做的導航列。 [查看示例](https://piggaga.github.io/Magic-menu/)",
         "tags": ["Html", "格式"]
     }
 ]
