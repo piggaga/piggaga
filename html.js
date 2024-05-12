@@ -1,7 +1,8 @@
-// scripts.js
-
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("html.json")
+    const timestamp = new Date().getTime(); // 獲取當前時間的時間戳
+    const url = `posts.json?timestamp=${timestamp}`; // 在 URL 中加入時間戳
+
+    fetch(url)
         .then(response => response.json())
         .then(posts => {
             const postList = document.getElementById("post-list");
@@ -12,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 postContainer.classList.add("post-container");
 
                 postContainer.addEventListener("click", function () {
-                    window.location.href = `html_detail.html?index=${posts.indexOf(post)}`;
+                    window.location.href = `detail.html?index=${html_posts.indexOf(post)}`;
                 });
 
                 const postTitle = document.createElement("h3");
