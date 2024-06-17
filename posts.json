@@ -4,5 +4,11 @@
         "content": "感謝你的使用,如果要在首頁改變或增加文章,更改posts.json即可。若要改變文章中的圖片,改變post.json中的image參數",
         "date": "2024-05-11",
         "image": "images/3.jpg"
+    },
+    {
+        "title": "暫時編譯器",
+        "image": "images/none.jpg",
+        "content": " [查看示例](https://piggaga.github.io/Temporary-Text-Editor/)"
     }
+    
 ]
